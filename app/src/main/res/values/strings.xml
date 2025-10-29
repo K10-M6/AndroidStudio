@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MiAppJanier</string>
+    <string name="Fruits">Frutas</string>
+    <string name="Next">Siguiente</string>
+    <string name="Menu">Menú</string>
+    <string name="MyApp">Bienvenido a mi app</string>
+    <string name="Colors">Colores</string>
+    <string name="Animals">Animales</string>
+    <string name="Numbers">Números</string>
+    <string name="One">Three</string>
+    <string name="Two">Two</string>
+    <string name="Three">One</string>
+    <string name="red">Red</string>
+    <string name="white">White</string>
+    <string name="Animal">Tiger</string>
+    <string name="Animal1">Crocodile</string>
+    <string name="Animal2">Flamingo</string>
+    <string name="Fruit1">Apple</string>
+    <string name="Fruit2">Orange</string>
+    <string name="Fruit3">Peach</string>
+    <string name="Black">Black</string>
+
+</resources>

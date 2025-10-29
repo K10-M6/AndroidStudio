@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frutas">
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:text="@string/Fruits"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:layout_width="129dp"
+        android:layout_height="123dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/img_15" />
+
+    <Button
+        android:onClick="App"
+        android:id="@+id/Button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/red"
+        android:text="@string/Fruit1" />
+
+    <ImageView
+        android:layout_width="139dp"
+        android:layout_height="122dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/img_16" />
+
+    <Button
+        android:onClick="Orange"
+        android:layout_width="117dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/red"
+        android:layout_marginTop="20dp"
+        android:text="@string/Fruit2" />
+
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/img_17" />
+
+    <Button
+        android:onClick="Peach"
+        android:layout_width="109dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/red"
+        android:text="@string/Fruit3" />
+
+</LinearLayout>

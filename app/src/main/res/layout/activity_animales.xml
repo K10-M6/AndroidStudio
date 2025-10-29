@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:background="@color/blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Animales">
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:text="@string/Animals"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:layout_width="129dp"
+        android:layout_height="123dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/img_19" />
+    <Button
+        android:onClick="TigerS"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/Animal"
+        android:backgroundTint="@color/red"/>
+
+    <ImageView
+        android:layout_width="139dp"
+        android:layout_height="122dp"
+        android:layout_gravity="center"
+        android:src="@drawable/img_13" />
+
+    <Button
+        android:onClick="CrocoS"
+        android:layout_width="151dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/red"
+        android:text="@string/Animal1" />
+
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/img_14" />
+
+    <Button
+        android:onClick="MingoS"
+        android:layout_width="147dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/Animal2" />
+</LinearLayout>
