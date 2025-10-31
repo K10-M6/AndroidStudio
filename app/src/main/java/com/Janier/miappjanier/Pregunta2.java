@@ -22,7 +22,7 @@ public class Pregunta2 extends AppCompatActivity {
         setContentView(R.layout.activity_menu_app);
         au_correcto = MediaPlayer.create(Pregunta2.this,R.raw.a_sound);
         au_incorrecto = MediaPlayer.create(Pregunta2.this,R.raw.a_incorrect);
-        au_text = MediaPlayer.create(Pregunta2.this,R.raw.buttonsounds);
+        au_text = MediaPlayer.create(Pregunta2.this,R.raw.flamingoooooooooo);
     }
 
     public void Nice(View view){
