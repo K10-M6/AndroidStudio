@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:background="@color/blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pregunta5">
+
+    <TextView
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:onClick="text5"
+        android:text="@string/quest"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:layout_width="104dp"
+        android:layout_height="118dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="Fallo5"
+        android:src="@drawable/img_5" />
+
+    <ImageView
+        android:layout_width="105dp"
+        android:layout_height="93dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="FalloS5"
+        android:src="@drawable/img_1" />
+    <ImageView
+        android:layout_width="129dp"
+        android:layout_height="123dp"
+        android:layout_gravity="center"
+        android:onClick="Nice5"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/img_4"/>
+
+</LinearLayout>

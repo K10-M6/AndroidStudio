@@ -7,17 +7,24 @@
     <string name="Colors">Colores</string>
     <string name="Animals">Animales</string>
     <string name="Numbers">Números</string>
-    <string name="One">Three</string>
-    <string name="Two">Two</string>
-    <string name="Three">One</string>
-    <string name="red">Red</string>
-    <string name="white">White</string>
-    <string name="Animal">Tiger</string>
-    <string name="Animal1">Crocodile</string>
-    <string name="Animal2">Flamingo</string>
-    <string name="Fruit1">Apple</string>
-    <string name="Fruit2">Orange</string>
-    <string name="Fruit3">Peach</string>
-    <string name="Black">Black</string>
+    <string name="One">Tres</string>
+    <string name="Two">Dos</string>
+    <string name="Three">Uno</string>
+    <string name="red">Rojo</string>
+    <string name="white">Blanco</string>
+    <string name="Animal">Tigre</string>
+    <string name="Animal1">Cocodrilo</string>
+    <string name="Animal2">Flamenco</string>
+    <string name="Fruit1">Manzana</string>
+    <string name="Fruit2">Naranja</string>
+    <string name="Fruit3">Durazno</string>
+    <string name="Black">Negro</string>
+    <string name="Four">Cuatro</string>
+    <string name="play">Jugar</string>
+    <string name="quest">¿Cual es la fruta que se pronuncia como "Apple"?</string>
+    <string name="quest1">¿Cual es el animal que se pronuncia como "Flamingo"?</string>
+    <string name="quest2">¿Cual es la fruta que se pronuncia como "Peach"?</string>
+    <string name="quest3">¿Cual es el color que se pronuncia como "red"?</string>
+    <string name="quest4">¿Cual es el Numero que se pronuncia como "Four"?</string>
 
 </resources>

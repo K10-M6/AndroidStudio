@@ -16,34 +16,43 @@
         android:src="@drawable/img_12"/>
     <Button
         android:onClick="irColores"
-        android:layout_width="200dp"
+        android:layout_width="120dp"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:text="@string/Colors"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/Green"
         android:layout_marginTop="100dp" />
     <Button
         android:onClick="irAnimales"
-        android:layout_width="200dp"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="@string/Animals"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/Green"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="5dp"/>
     <Button
         android:onClick="irNumeros"
-        android:layout_width="200dp"
+        android:layout_width="120dp"
         android:layout_gravity="center"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/Green"
         android:layout_height="wrap_content"
         android:text="@string/Numbers"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="5dp"/>
     <Button
         android:onClick="irFrutas"
-        android:layout_width="200dp"
+        android:layout_width="120dp"
         android:layout_gravity="center"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/Green"
         android:layout_height="wrap_content"
         android:text="@string/Fruits"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/orange"
+        android:onClick="Jugar"
+        android:layout_marginTop="5dp"
+        android:text="@string/play"/>
 </LinearLayout>

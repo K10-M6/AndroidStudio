@@ -13,7 +13,6 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MenuApp extends AppCompatActivity {
-    ImageButton Colores, Animales, Numeros, Frutas;
     private MediaPlayer au_buttonsounds;
 
     @Override
@@ -45,5 +44,10 @@ public class MenuApp extends AppCompatActivity {
         au_buttonsounds.start();
         Intent Frutas = new Intent( MenuApp.this, Frutas.class);
         startActivity(Frutas);
+    }
+    public void Jugar(View view){
+        au_buttonsounds.start();
+        Intent Pregunta1 = new Intent(MenuApp.this, Pregunta1.class);
+        startActivity(Pregunta1);
     }
 }
