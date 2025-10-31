@@ -10,10 +10,10 @@
     tools:context=".MenuApp">
 
     <ImageView
-        android:layout_width="300dp"
-        android:layout_height="200dp"
+        android:layout_width="535dp"
+        android:layout_height="386dp"
         android:layout_gravity="center"
-        android:src="@drawable/img_12"/>
+        android:src="@drawable/ingles" />
     <Button
         android:onClick="irColores"
         android:layout_width="120dp"
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:text="@string/Colors"
         android:backgroundTint="@color/Green"
-        android:layout_marginTop="100dp" />
+        android:layout_marginTop="40dp" />
     <Button
         android:onClick="irAnimales"
         android:layout_width="120dp"
@@ -46,13 +46,4 @@
         android:layout_height="wrap_content"
         android:text="@string/Fruits"
         android:layout_marginTop="5dp"/>
-
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="40dp"
-        android:layout_gravity="center"
-        android:backgroundTint="@color/orange"
-        android:onClick="Jugar"
-        android:layout_marginTop="5dp"
-        android:text="@string/play"/>
 </LinearLayout>

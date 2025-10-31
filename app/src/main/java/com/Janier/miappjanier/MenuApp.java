@@ -45,9 +45,4 @@ public class MenuApp extends AppCompatActivity {
         Intent Frutas = new Intent( MenuApp.this, Frutas.class);
         startActivity(Frutas);
     }
-    public void Jugar(View view){
-        au_buttonsounds.start();
-        Intent Pregunta1 = new Intent(MenuApp.this, Pregunta1.class);
-        startActivity(Pregunta1);
-    }
 }

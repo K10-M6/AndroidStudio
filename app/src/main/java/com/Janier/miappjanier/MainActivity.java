@@ -28,4 +28,10 @@ public class MainActivity extends AppCompatActivity {
         Intent siguiente = new Intent( MainActivity.this, MenuApp.class);
         startActivity(siguiente);
     }
+
+    public void Jugar(View view){
+        au_buttonsounds.start();
+        Intent Pregunta1 = new Intent(MainActivity.this, Pregunta1.class);
+        startActivity(Pregunta1);
+    }
 }

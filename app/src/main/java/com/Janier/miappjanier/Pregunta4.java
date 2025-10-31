@@ -20,8 +20,8 @@ public class Pregunta4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_menu_app);
-        au_correcto = MediaPlayer.create(Pregunta4.this,R.raw.buttonsounds);
-        au_incorrecto = MediaPlayer.create(Pregunta4.this,R.raw.buttonsounds);
+        au_correcto = MediaPlayer.create(Pregunta4.this,R.raw.a_sound);
+        au_incorrecto = MediaPlayer.create(Pregunta4.this,R.raw.a_incorrect);
         au_text = MediaPlayer.create(Pregunta4.this,R.raw.buttonsounds);
     }
 
