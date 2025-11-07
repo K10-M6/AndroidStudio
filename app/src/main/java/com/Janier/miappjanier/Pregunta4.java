@@ -19,7 +19,7 @@ public class Pregunta4 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_menu_app);
+        setContentView(R.layout.pregunta4);
         au_correcto = MediaPlayer.create(Pregunta4.this,R.raw.a_sound);
         au_incorrecto = MediaPlayer.create(Pregunta4.this,R.raw.a_incorrect);
         au_text = MediaPlayer.create(Pregunta4.this,R.raw.red);

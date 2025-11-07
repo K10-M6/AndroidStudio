@@ -41,7 +41,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="5dp"
         android:backgroundTint="@color/orange"
-        android:onClick="Jugar"
+        android:onClick="IrJugar"
         android:text="@string/play" />
 
 </LinearLayout>

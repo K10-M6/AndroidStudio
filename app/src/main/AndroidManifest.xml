@@ -26,6 +26,16 @@
         <activity
             android:name=".MenuApp"
             android:exported="false" />
+        <activity android:name=".Pregunta1"
+            android:exported="true"/>
+        <activity android:name=".Pregunta2"
+            android:exported="true"/>
+        <activity android:name=".Pregunta3"
+            android:exported="true"/>
+        <activity android:name=".Pregunta4"
+            android:exported="true"/>
+        <activity android:name=".Pregunta5"
+            android:exported="true"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

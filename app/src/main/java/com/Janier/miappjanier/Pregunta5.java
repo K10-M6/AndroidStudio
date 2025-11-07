@@ -19,7 +19,7 @@ public class Pregunta5 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_menu_app);
+        setContentView(R.layout.pregunta5);
         au_correcto = MediaPlayer.create(Pregunta5.this,R.raw.a_sound);
         au_incorrecto = MediaPlayer.create(Pregunta5.this,R.raw.a_incorrect);
         au_text = MediaPlayer.create(Pregunta5.this,R.raw.two);
@@ -27,7 +27,7 @@ public class Pregunta5 extends AppCompatActivity {
 
     public void Nice5(View view){
         au_correcto.start();
-        Intent Pregunta5 = new Intent( Pregunta5.this, MenuApp.class);
+        Intent Pregunta5 = new Intent( Pregunta5.this, MainActivity.class);
         startActivity(Pregunta5);
     }
     public void FalloS5(View view){

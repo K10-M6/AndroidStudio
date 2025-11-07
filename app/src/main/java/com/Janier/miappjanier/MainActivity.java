@@ -29,9 +29,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(siguiente);
     }
 
-    public void Jugar(View view){
+    public void IrJugar(View view){
         au_buttonsounds.start();
-        Intent Pregunta1 = new Intent(MainActivity.this, Pregunta1.class);
-        startActivity(Pregunta1);
+        Intent jugar = new Intent(MainActivity.this, Pregunta1.class);
+        startActivity(jugar);
     }
 }
