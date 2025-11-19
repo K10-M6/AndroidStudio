@@ -50,6 +50,7 @@
         android:layout_marginTop="5dp"
         android:backgroundTint="@color/black"
         android:onClick="IrRegister"
+        android:textColor="@color/white"
         android:text="@string/Register" />
 
 </LinearLayout>

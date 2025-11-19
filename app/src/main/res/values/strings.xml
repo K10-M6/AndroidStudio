@@ -34,7 +34,7 @@
     <string name="quest3">¿Cual es el color que se pronuncia como "red"?</string>
     <string name="quest4">¿Cual es el Numero que se pronuncia como "Four"?</string>
     <string-array name="colegios">
-        <item>1</item>
+        <item>Colegio 1</item>
         <item>2</item>
         <item>3</item>
         <item>3</item>
