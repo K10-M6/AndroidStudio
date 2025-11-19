@@ -21,10 +21,24 @@
     <string name="Black">Negro</string>
     <string name="Four">Cuatro</string>
     <string name="play">Jugar</string>
+    <string name="Register">Registrarse</string>
+    <string name="Registro">Ingrese sus datos</string>
+    <string name="Nombre">Ingrese su nombre</string>
+    <string name="Apodo">Ingrese su apodo</string>
+    <string name="GeneroF">F</string>
+    <string name="GeneroM">M</string>
+    <string name="edad">Edad</string>
     <string name="quest">¿Cual es la fruta que se pronuncia como "Apple"?</string>
     <string name="quest1">¿Cual es el animal que se pronuncia como "Flamingo"?</string>
     <string name="quest2">¿Cual es la fruta que se pronuncia como "Peach"?</string>
     <string name="quest3">¿Cual es el color que se pronuncia como "red"?</string>
     <string name="quest4">¿Cual es el Numero que se pronuncia como "Four"?</string>
+    <string-array name="colegios">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
 
 </resources>

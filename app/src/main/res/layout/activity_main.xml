@@ -43,5 +43,13 @@
         android:backgroundTint="@color/orange"
         android:onClick="IrJugar"
         android:text="@string/play" />
+    <Button
+        android:layout_width="133dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/black"
+        android:onClick="IrRegister"
+        android:text="@string/Register" />
 
 </LinearLayout>
