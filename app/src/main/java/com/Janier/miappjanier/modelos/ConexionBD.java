@@ -1,4 +1,4 @@
-package com.Janier.miappjanier.controllers;
+package com.Janier.miappjanier.modelos;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -8,12 +8,12 @@ import androidx.annotation.Nullable;
 
 public class ConexionBD extends SQLiteOpenHelper {
     public ConexionBD(@Nullable Context context) {
-        super(context, Constantes.NOMBRE_BD, null, Constantes.VERSION_BD);
+        super(context, Constantes.NAME_BD, null, Constantes.VERSION_BD);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE DatosChild(nombre TEXT, apodo TEXT, edad INT, genero TEXT)");
+        db.execSQL("CREATE TABLE tablaIngles(nombre TEXT, apellido TEXT, colegio TEXT, edad INTEGER, genero TEXT)");
     }
 
     @Override
@@ -21,3 +21,4 @@ public class ConexionBD extends SQLiteOpenHelper {
 
     }
 }
+

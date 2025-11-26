@@ -24,7 +24,7 @@
     <string name="Register">Registrarse</string>
     <string name="Registro">Ingrese sus datos</string>
     <string name="Nombre">Ingrese su nombre</string>
-    <string name="Apodo">Ingrese su apodo</string>
+    <string name="Apellido">Ingrese su apellido</string>
     <string name="GeneroF">F</string>
     <string name="GeneroM">M</string>
     <string name="edad">Edad</string>
@@ -35,10 +35,10 @@
     <string name="quest4">¿Cual es el Numero que se pronuncia como "Four"?</string>
     <string-array name="colegios">
         <item>Colegio 1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>3</item>
-        <item>4</item>
+        <item>Colegio 2</item>
+        <item>Colegio 3</item>
+        <item>Colegio 3</item>
+        <item>Colegio 4</item>
     </string-array>
 
 </resources>

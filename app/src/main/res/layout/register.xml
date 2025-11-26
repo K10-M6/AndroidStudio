@@ -28,7 +28,7 @@
         android:background="@color/white"
         android:inputType="textPersonName"/>
     <EditText
-        android:id="@+id/apodo"
+        android:id="@+id/apellido"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -50,15 +50,16 @@
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:background="@color/white"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:digits="01223456789"/>
     <Spinner
         android:id="@+id/spnColegios"
         android:layout_width="wrap_content"
         android:layout_gravity="center"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:textColor="@color/black"
-        android:layout_marginTop="20dp"
-        android:background="@color/white"
+        android:layout_marginTop="30dp"
+        android:background="@color/black"
         android:entries="@array/colegios"/>
     <RadioGroup
         android:id="@+id/rgGenero"
@@ -82,10 +83,11 @@
             android:text="@string/GeneroM"/>
     </RadioGroup>
     <Button
+        android:id="@+id/BtnRegistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@color/black"
+        android:background="@color/gray"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
         android:text="@string/Register"/>
