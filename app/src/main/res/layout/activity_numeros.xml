@@ -8,7 +8,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Numeros">
-
     <TextView
         android:layout_width="160dp"
         android:layout_height="wrap_content"
@@ -19,57 +18,194 @@
         android:textColor="@color/white"
         android:textSize="40sp" />
 
-    <ImageView
-        android:layout_width="113dp"
-        android:layout_height="95dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:src="@drawable/img_1" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="113dp"
+                android:layout_height="95dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/img_1" />
 
-    <Button
-        android:onClick="One"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:text="@string/Three"
-        android:backgroundTint="@color/red"/>
+            <Button
+                android:onClick="One"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="@string/Three"
+                android:backgroundTint="@color/red"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_marginTop="60dp"
+                android:layout_height="86dp"
+                android:layout_gravity="center"
+                android:src="@drawable/img" />
+            <Button
+                android:onClick="Two"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="@string/Two"
+                android:backgroundTint="@color/red"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_marginTop="60dp"
+                android:layout_height="86dp"
+                android:layout_gravity="center"
+                android:src="@drawable/img_3" />
+            <Button
+                android:onClick="Three"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="@string/One"
+                android:backgroundTint="@color/red"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="113dp"
+                android:layout_height="95dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/img_4" />
 
-    <ImageView
-        android:layout_width="110dp"
-        android:layout_height="86dp"
-        android:layout_gravity="center"
-        android:src="@drawable/img" />
-    <Button
-        android:onClick="Two"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:text="@string/Two"
-        android:backgroundTint="@color/red"/>
+            <Button
+                android:onClick="Four"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="@string/Four"
+                android:backgroundTint="@color/red"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_marginTop="60dp"
+                android:layout_height="86dp"
+                android:layout_gravity="center"
+                android:src="@drawable/img_5" />
+            <Button
+                android:onClick="Five"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="@string/Five"
+                android:backgroundTint="@color/red"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_marginTop="60dp"
+                android:layout_height="86dp"
+                android:layout_gravity="center"
+                android:src="@drawable/img_2" />
+            <Button
+                android:onClick="Six"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="@string/Six"
+                android:backgroundTint="@color/red"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="113dp"
+                android:layout_height="95dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/img_6" />
 
-    <ImageView
-        android:layout_width="116dp"
-        android:layout_height="90dp"
-        android:layout_gravity="center"
-        android:src="@drawable/img_3" />
-    <Button
-        android:onClick="Three"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:text="@string/One"
-        android:backgroundTint="@color/red"/>
-    <ImageView
-        android:layout_width="116dp"
-        android:layout_height="90dp"
-        android:layout_gravity="center"
-        android:src="@drawable/img_4" />
-    <Button
-        android:onClick="Four"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:text="@string/Four"
-        android:backgroundTint="@color/red"/>
+            <Button
+                android:onClick="Seven"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="@string/Seven"
+                android:backgroundTint="@color/red"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_marginTop="60dp"
+                android:layout_height="86dp"
+                android:layout_gravity="center"
+                android:src="@drawable/img_7" />
+            <Button
+                android:onClick="Eight"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="@string/Eight"
+                android:backgroundTint="@color/red"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_marginTop="60dp"
+                android:layout_height="86dp"
+                android:layout_gravity="center"
+                android:src="@drawable/img_8" />
+            <Button
+                android:onClick="Nine"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="@string/Nine"
+                android:backgroundTint="@color/red"/>
+        </LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>

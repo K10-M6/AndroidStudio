@@ -10,6 +10,11 @@
     <string name="One">Tres</string>
     <string name="Two">Dos</string>
     <string name="Three">Uno</string>
+    <string name="Five">Cinco</string>
+    <string name="Six">Seis</string>
+    <string name="Seven">Siete</string>
+    <string name="Eight">Ocho</string>
+    <string name="Nine">Nueve</string>
     <string name="red">Rojo</string>
     <string name="white">Blanco</string>
     <string name="Animal">Tigre</string>
@@ -40,5 +45,10 @@
         <item>Colegio 3</item>
         <item>Colegio 4</item>
     </string-array>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
 
 </resources>

@@ -15,7 +15,7 @@ public class Datos {
         this.genero = gen;
 
     }
-    //METODOS SET PARA DARLE VAOR A LAS VARIABLES
+
 
     public void setNombre(String nombre){
         this.nombre = nombre;
@@ -46,5 +46,8 @@ public class Datos {
     }
     public String getGenero(){
         return genero;
+    }
+    public Datos(){
+
     }
 }

@@ -12,7 +12,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class Numeros extends AppCompatActivity {
-    private MediaPlayer au_one, au_two, au_three, au_four;
+    private MediaPlayer au_one, au_two, au_three, au_four, au_f, six, sev, eight, nine;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,7 +21,12 @@ public class Numeros extends AppCompatActivity {
         au_one = MediaPlayer.create(Numeros.this, R.raw.one );
         au_two = MediaPlayer.create(Numeros.this, R.raw.two );
         au_three = MediaPlayer.create(Numeros.this, R.raw.three );
-        au_four = MediaPlayer.create(Numeros.this, R.raw.buttonsounds);
+        au_four = MediaPlayer.create(Numeros.this, R.raw.three);
+        au_f = MediaPlayer.create(Numeros.this, R.raw.three );
+        six = MediaPlayer.create(Numeros.this, R.raw.three );
+        sev = MediaPlayer.create(Numeros.this, R.raw.three );
+        eight = MediaPlayer.create(Numeros.this, R.raw.three );
+        nine = MediaPlayer.create(Numeros.this, R.raw.three );
     }
     public void One(View view){
         au_one.start();
@@ -34,5 +39,8 @@ public class Numeros extends AppCompatActivity {
     }
     public void Four(View view){
         au_four.start();
+    }
+    public void Five(View view){
+        au_f.start();
     }
 }

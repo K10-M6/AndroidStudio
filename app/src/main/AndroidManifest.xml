@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools" >
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MiAppJanier">
+        android:theme="@style/Theme.MiAppJanier" >
+        <activity
+            android:name=".controllers.ListarDatos"
+            android:exported="false"
+            android:theme="@style/Theme.MiAppJanier" />
         <activity
             android:name=".Numeros"
             android:exported="false" />
@@ -26,21 +30,27 @@
         <activity
             android:name=".MenuApp"
             android:exported="false" />
-        <activity android:name=".Pregunta1"
-            android:exported="true"/>
-        <activity android:name=".Pregunta2"
-            android:exported="true"/>
-        <activity android:name=".Pregunta3"
-            android:exported="true"/>
-        <activity android:name=".Pregunta4"
-            android:exported="true"/>
-        <activity android:name=".Pregunta5"
-            android:exported="true"/>
-        <activity android:name=".Register"
-            android:exported="true"/>
+        <activity
+            android:name=".Pregunta1"
+            android:exported="true" />
+        <activity
+            android:name=".Pregunta2"
+            android:exported="true" />
+        <activity
+            android:name=".Pregunta3"
+            android:exported="true" />
+        <activity
+            android:name=".Pregunta4"
+            android:exported="true" />
+        <activity
+            android:name=".Pregunta5"
+            android:exported="true" />
+        <activity
+            android:name=".Register"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -32,12 +32,18 @@ public class Pregunta4 extends AppCompatActivity {
     }
     public void Fallo(View view){
         au_incorrecto.start();
+        Intent Pregunta5 = new Intent( Pregunta4.this, Pregunta5.class);
+        startActivity(Pregunta5);
     }
 
     public void Fallo1(View view){
         au_incorrecto.start();
+        Intent Pregunta5 = new Intent( Pregunta4.this, Pregunta5.class);
+        startActivity(Pregunta5);
     }
     public void textS(View view){
         au_text.start();
+        Intent Pregunta5 = new Intent( Pregunta4.this, Pregunta5.class);
+        startActivity(Pregunta5);
     }
 }
